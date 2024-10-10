@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% block title %}Home - EPMS{% endblock %}
+{% block content %}
+{% load static %}
+
+    <!-- about section -->
+
+    <section class="about_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <div class="detail-box">
+              <h2>
+                About us
+              </h2>
+              <p>
+                Our Employee Management System is designed to streamline and
+                optimize the workflow of managing employee
+                data. It offers a comprehensive solution for tracking employee
+                information, performance, attendance, and
+                more. By leveraging this system, organizations can ensure
+                efficient and effective human resource
+                management, minimizing manual processes and enhancing
+                productivity. The system is built to adapt to
+                various organizational needs, making it a versatile tool for any
+                business aiming to improve its HR
+                operations. </p>
+              <a href>
+                Read More
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6">
+            <div class="img-box">
+              <img src="{% static 'images/abt.jpg' %}" alt>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end about section -->
+
+    <!-- info section -->
+    <section class="info_section ">
+      <div class="container">
+        <h4>
+          Get In Touch
+        </h4>
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="info_items">
+              <div class="row">
+                <div class="col-md-4">
+                  <a href>
+                    <div class="item ">
+                      <div class="img-box ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                      </div>
+                      <p>
+                        Stark Tower
+                        200 Park Avenue
+                        New York, NY 10166
+                        USA
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4">
+                  <a href>
+                    <div class="item ">
+                      <div class="img-box ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                      </div>
+                      <p>
+                        +02 1234567890
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4">
+                  <a href>
+                    <div class="item ">
+                      <div class="img-box">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                      </div>
+                      <p>
+                        EMPS2020@gmail.com
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social-box">
+        <h4>
+          Follow Us
+        </h4>
+        <div class="box">
+          <a href>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href>
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+          </a>
+          <a href>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- end info_section -->
+
+    {% endblock %}
